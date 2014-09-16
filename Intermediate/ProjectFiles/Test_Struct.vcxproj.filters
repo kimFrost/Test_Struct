@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Test_Struct.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{BFD436CD-6419-4E54-ABD1-D579C9A6FC33}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Test_Struct.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Test_StructEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8C33548A-204E-429B-9EA4-8BECBFF03D58}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Test_Struct">
+			<UniqueIdentifier>{A9D91088-A874-4007-9947-AAF238220986}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Test_Struct\Test_Struct.Build.cs">
+			<Filter>Source\Test_Struct</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Test_Struct\Test_Struct.cpp">
+			<Filter>Source\Test_Struct</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Test_Struct\Test_Struct.h">
+			<Filter>Source\Test_Struct</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Test_Struct\Test_StructGameMode.cpp">
+			<Filter>Source\Test_Struct</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Test_Struct\Test_StructGameMode.h">
+			<Filter>Source\Test_Struct</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Test_Struct\Test_StructPlayerController.cpp">
+			<Filter>Source\Test_Struct</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Test_Struct\Test_StructPlayerController.h">
+			<Filter>Source\Test_Struct</Filter>
+		</ClInclude >
+		<Filter Include="Source\Test_Struct\Resources">
+			<UniqueIdentifier>{24F184E9-49F8-435C-A036-442E082313C5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Test_Struct\Resources\Windows">
+			<UniqueIdentifier>{466DD4E1-0CA9-466C-AF7C-9CA50B2C5BF8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Test_Struct\Resources\Windows\Test_Struct.ico">
+			<Filter>Source\Test_Struct\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Test_Struct\Resources\Windows\Test_Struct.rc">
+			<Filter>Source\Test_Struct\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
